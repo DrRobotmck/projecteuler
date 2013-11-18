@@ -1,14 +1,24 @@
 nat_num = []
 
-i = 0
+puts "Enter a max value"
+print ">"
+max_val = gets.chomp.to_i
 
-while i < 1000 do
+puts "Enter two multiples"
+print ">"
+first = gets.chomp.to_i
+print ">"
+second = gets.chomp.to_i
+
+i = 0
+while i < max_val do
   num = i
-  if (num % 3 == 0) || (num % 5 == 0)
+  if (num % first == 0) || (num % second == 0)
     nat_num << num
   end
   i+=1
 end
+
 final_num = 0 
 
 for numbers in nat_num do
