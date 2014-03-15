@@ -6,10 +6,8 @@ b = []
 i=0
 while i < 5000
 	b<< a[i..i+49].to_i
-	# print b
 	i+=50
 end
 
-puts b.length
 puts b.reduce(:+).to_s[0..9]
 

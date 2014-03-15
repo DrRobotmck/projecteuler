@@ -7,4 +7,4 @@
 # puts ((a**66)+(2**10)).to_s.split("").map{|x| x.to_i}.reduce(:+)
 
 
-puts (2**1000).to_s.split("").map{|x| x.to_i}.reduce(:+)
+print (2**1000).to_s.split("") #.map{|x| x.to_i}.reduce(:+)

@@ -12,7 +12,6 @@ while i > 0 do
 	end
 	i-=1
 end
-
 # start from lowest prime and multiply each until you get the starting number
 # that will be the highest prime factor
 
